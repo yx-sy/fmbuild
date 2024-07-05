@@ -28,14 +28,20 @@ jobs:
 
          #简体化
          sed -i 's/預設/预设/g;s/名稱/名称/g;s/時間/时间/g' app/src/main/java/com/github/catvod/spider/AList.java
-         sed -i 's/預設/预设/g;s/名稱/名称/g;s/時間/时间/g' app/src/main/java/com/github/catvod/spider/WebDAV.java         
+         sed -i 's/預設/预设/g;s/名稱/名称/g;s/時間/时间/g' app/src/main/java/com/github/catvod/spider/WebDAV.java
          sed -i 's/原畫/原画/g;s/普畫/普画/g;s/轉存/转存/g;s/極速/极速/g' app/src/main/java/com/github/catvod/spider/Ali.java
          sed -i 's/原畫/原画/g;s/普畫/普画/g;s/轉存/转存/g;s/極速/极速/g;s/阿里雲盤/阿里云盘/g' app/src/main/java/com/github/catvod/api/AliYun.java
+         #替换
+         # sed -i 's/tvfan.xxooo.cf/www.wogg.link/g' app/src/main/java/com/github/catvod/spider/Wogg.java
+         # sed -i 's/www.aliyundrive.com/(www.alipan.com|www.aliyundrive.com)/g' app/src/main/java/com/github/catvod/spider/Zhaozy.java
+         # cp ../app/src/main/java/com/github/catvod/spider/Wobg.java app/src/main/java/com/github/catvod/spider/Wobg.java
+         # cp ../app/src/main/java/com/github/catvod/spider/Wwgg.java app/src/main/java/com/github/catvod/spider/Wwgg.java
+         cp ../app/src/main/java/com/github/catvod/spider/utils/Image.java app/src/main/java/com/github/catvod/utils/Image.java
          #替换图标
-         sed -i 's/https:\/\/x.imgs.ovh\/x\/2023\/09\/05\/64f680bb030b4.png/https:\/\/gitee.com\/yx-sy\/img\/raw\/main\/cus\/folder.png/g' app/src/main/java/com/github/catvod/utils/Image.java
-         sed -i 's/https:\/\/x.imgs.ovh\/x\/2023\/09\/05\/64f67fe2e7720.png/https:\/\/gitee.com\/yx-sy\/img\/raw\/main\/cus\/video.png/g' app/src/main/java/com/github/catvod/utils/Image.java
-         #打包排除列表
-         #rm -rf app/src/main/java/com/github/catvod/spider/AList.java
+         # sed -i 's/https:\/\/x.imgs.ovh\/x\/2023\/09\/05\/64f680bb030b4.png/https:\/\/gitee.com\/yx-sy\/img\/raw\/main\/cus\/folder.png/g' app/src/main/java/com/github/catvod/utils/Image.java
+         # sed -i 's/https:\/\/x.imgs.ovh\/x\/2023\/09\/05\/64f67fe2e7720.png/https:\/\/gitee.com\/yx-sy\/img\/raw\/main\/cus\/video.png/g' app/src/main/java/com/github/catvod/utils/Image.java
+         # 打包排除列表
+         # rm -rf app/src/main/java/com/github/catvod/spider/AList.java
          #rm -rf app/src/main/java/com/github/catvod/spider/Ali.java
          #rm -rf app/src/main/java/com/github/catvod/spider/AppYsV2.java
          #rm -rf app/src/main/java/com/github/catvod/spider/Bili.java
