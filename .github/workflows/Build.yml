@@ -36,7 +36,7 @@ jobs:
          # sed -i 's/www.aliyundrive.com/(www.alipan.com|www.aliyundrive.com)/g' app/src/main/java/com/github/catvod/spider/Zhaozy.java
          # cp ../app/src/main/java/com/github/catvod/spider/Wobg.java app/src/main/java/com/github/catvod/spider/Wobg.java
          # cp ../app/src/main/java/com/github/catvod/spider/Wwgg.java app/src/main/java/com/github/catvod/spider/Wwgg.java
-         cp ../app/src/main/java/com/github/catvod/spider/utils/Image.java app/src/main/java/com/github/catvod/utils/Image.java
+         cp ../app/src/main/java/com/github/catvod/utils/Image.java app/src/main/java/com/github/catvod/utils/Image.java
          #替换图标
          # sed -i 's/https:\/\/x.imgs.ovh\/x\/2023\/09\/05\/64f680bb030b4.png/https:\/\/gitee.com\/yx-sy\/img\/raw\/main\/cus\/folder.png/g' app/src/main/java/com/github/catvod/utils/Image.java
          # sed -i 's/https:\/\/x.imgs.ovh\/x\/2023\/09\/05\/64f67fe2e7720.png/https:\/\/gitee.com\/yx-sy\/img\/raw\/main\/cus\/video.png/g' app/src/main/java/com/github/catvod/utils/Image.java
