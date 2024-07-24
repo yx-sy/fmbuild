@@ -76,7 +76,7 @@ jobs:
          rm -rf app/src/main/java/com/github/catvod/spider/XPathFilter.java
          rm -rf app/src/main/java/com/github/catvod/spider/XPathMac.java
          rm -rf app/src/main/java/com/github/catvod/spider/XPathMacFilter.java
-         rm -rf app/src/main/java/com/github/catvod/spider/Xb6v.java
+         # rm -rf app/src/main/java/com/github/catvod/spider/Xb6v.java
          # rm -rf app/src/main/java/com/github/catvod/spider/XiaoZhiTiao.java
          # rm -rf app/src/main/java/com/github/catvod/spider/YiSo.java
          # rm -rf app/src/main/java/com/github/catvod/spider/Ysj.ava
