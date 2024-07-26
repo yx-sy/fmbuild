@@ -39,7 +39,7 @@ jobs:
          cp ../app/src/main/java/com/github/catvod/utils/Image.java app/src/main/java/com/github/catvod/utils/Image.java
          cp ../app/src/main/java/com/github/catvod/spider/Nongm.java app/src/main/java/com/github/catvod/spider/Nongm.java
          cp ../app/src/main/java/com/github/catvod/spider/Quanwk.java app/src/main/java/com/github/catvod/spider/Quanwk.java
-         cp ../app/src/main/java/com/github/catvod/spider/Nongm.java app/src/main/java/com/github/catvod/spider/Nongm.java
+         cp ../app/src/main/java/com/github/catvod/spider/XYQBiu.java app/src/main/java/com/github/catvod/spider/XYQBiu.java
          #替换图标
          # sed -i 's/https:\/\/x.imgs.ovh\/x\/2023\/09\/05\/64f680bb030b4.png/https:\/\/gitee.com\/yx-sy\/img\/raw\/main\/cus\/folder.png/g' app/src/main/java/com/github/catvod/utils/Image.java
          # sed -i 's/https:\/\/x.imgs.ovh\/x\/2023\/09\/05\/64f67fe2e7720.png/https:\/\/gitee.com\/yx-sy\/img\/raw\/main\/cus\/video.png/g' app/src/main/java/com/github/catvod/utils/Image.java
