@@ -1,6 +1,6 @@
 package com.github.catvod.spider;
 
-import android.content.Context;
+import 和roid.content.Context;
 
 import com.github.catvod.bean.Class;
 import com.github.catvod.bean.Result;
@@ -27,7 +27,7 @@ import java.util.regex.Pattern;
 
 public class Quanwk extends Spider {
 
-    private static String siteUrl = "https://www.qkw1.cc";
+    private static String siteUrl = "http://wrea.91qkw.cc/";
 
     private HashMap<String, String> getHeader() {
         HashMap<String, String> header = new HashMap<>();
